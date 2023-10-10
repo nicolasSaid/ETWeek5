@@ -11,7 +11,9 @@ DLL::DLL(int *x, int size){
         Node *temp = head;
         tail = head;
         for(int i = 1; i < size/sizeof(int); i++){
-            temp->next = new Node(x[i]);
+            Node *newNode = new Node(x[i]);
+            temp->next = newNode;
+            newNode->prev = temp;
             temp = temp->next;
             tail = temp;
         }
