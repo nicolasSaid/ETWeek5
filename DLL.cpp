@@ -23,10 +23,10 @@ ostream& operator<<(ostream& o, DLL x){
     //try to implement this function with a partner!
 }
 
-int removeOddNodes(){
+int DLL::removeOddNodes(){
     //try to implement this function with a partner!
 }
 
-void reverseList(){
+void DLL::reverseList(){
     //if we have time, try to implement this function with a partner!
 }
