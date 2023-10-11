@@ -26,6 +26,7 @@ class DLL{
     public:
         DLL();
         DLL(int *x, int size);
+        ~DLL();
         friend ostream& operator<<(ostream& o, DLL x);
         int removeOddNodes();
         void reverseList();
