@@ -19,7 +19,7 @@ DLL::DLL(int *x, int size){
         }
     }
 }
-ostream& operator<<(ostream& o, DLL x){
+ostream& operator<<(ostream& o, const DLL &x){
     //try to implement this function with a partner!
 }
 
