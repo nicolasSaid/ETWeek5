@@ -27,7 +27,7 @@ class DLL{
         DLL();
         DLL(int *x, int size);
         ~DLL();
-        friend ostream& operator<<(ostream& o, DLL x);
+        friend ostream& operator<<(ostream& o, const DLL &x);
         int removeOddNodes();
         void reverseList();
 };
