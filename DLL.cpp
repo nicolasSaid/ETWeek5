@@ -27,7 +27,7 @@ int DLL::removeOddNodes(){
     //try to implement this function with a partner!
 }
 
-DLL:~DLL(){
+DLL::~DLL(){
     //try to implement this function with a partner!
 }
 
