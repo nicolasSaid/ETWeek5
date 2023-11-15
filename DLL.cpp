@@ -5,6 +5,7 @@ DLL::DLL(){
     tail = nullptr;
 }
 
+
 DLL::DLL(int *x, int size){
     if(size != 0){
         head = new Node(x[0]);
