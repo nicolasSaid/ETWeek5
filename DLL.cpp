@@ -24,14 +24,14 @@ ostream& operator<<(ostream& o, const DLL &x){
     //try to implement this function with a partner!
 }
 
-int DLL::removeOddNodes(){
-    //try to implement this function with a partner!
-}
-
 DLL::~DLL(){
     //try to implement this function with a partner!
 }
 
 void DLL::reverseList(){
-    //if we have time, try to implement this function with a partner!
+    // try to implement this function with a partner!
+}
+
+int DLL::removeOddNodes(){
+    //If you finish early, try to implement this function with a partner!
 }
