@@ -32,6 +32,10 @@ void DLL::reverseList(){
     // try to implement this function with a partner!
 }
 
+void DLL::insertCommonNodes(int val){ //this function inserts values next to the same value if it is present
+    //try to implement this function with a partner!
+}
+
 int DLL::removeOddNodes(){
-    //If you finish early, try to implement this function with a partner!
+    //try to implement this function with a partner!
 }

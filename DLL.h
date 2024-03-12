@@ -29,5 +29,6 @@ class DLL{
         ~DLL();
         friend ostream& operator<<(ostream& o, const DLL &x);
         int removeOddNodes();
+        void insertCommonNodes(int val);
         void reverseList();
 };
